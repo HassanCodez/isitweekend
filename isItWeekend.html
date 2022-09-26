@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Is it weekend?</title>
+        <script>
+            let today = new Date();
+            let weekend = today.getDay();
+            function theWeekend() {
+                if (weekend == 5) {
+                    document.write(`<h1> Yes! </h1>
+                    <p> Have fun ❤️ </p>
+                    <div style = 
+                    'width:100%; 
+                    height:100%; 
+                    background-color:lightgrey; 
+                    top:0; 
+                    left:0px; 
+                    position:absolute;'>
+
+                    <h1 style=
+                    'text-align:center;
+                     font-size:60px;
+                     margin-top:20%;
+                     color:green;
+                    '> Yes!! </h1>
+                    <p style=
+                        'text-align:center;
+                         font-size:25px;  
+                    '> Have fun ❤️  </p>
+                    </div>`)
+                } else if(weekend == 6){
+                    document.write(`<h1> Yes! </h1>
+                    <p> Have fun ❤️ </p>
+                    <div style = 
+                    'width:100%; 
+                    height:100%; 
+                    background-color:lightgrey; 
+                    top:0; 
+                    left:0px; 
+                    position:absolute;'>
+
+                    <h1 style=
+                    'text-align:center;
+                     font-size:60px;
+                     margin-top:20%;
+                     color:green;
+                    '> Yes!! </h1>
+                    <p style=
+                        'text-align:center;
+                         font-size:25px;  
+                    '> Have fun ❤️  </p>
+                    </div>`)
+                } else {
+                    document.write(`<div style = 'width:100%; height:100%; background-color:lightgrey; top:0; left:0px; position:absolute;'>
+                        <h1 style=
+                    'text-align:center;
+                     font-size:60px;
+                     margin-top:20%;
+                     color:#b51212;
+                    '> Nope... </h1>
+                        <p style=
+                        'text-align:center;
+                         font-size:25px;
+                        
+                        '> Have fu*k 💔 </p>
+                        <div style= 'position:absolute; top:97%; left:0; width:70%;' >Made for fun, Made for friends, made with love</div>
+                        </div>
+                        ` )
+                }
+            }
+            
+            
+            </script>
+       
+    </head>
+    <body onload="theWeekend()">
+    </body>
+</html>
